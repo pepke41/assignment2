@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Futurama Survey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/submit.js"></script>
+  </head>
+
+  <body>
+    <div id="survey">
+      <h1>Choose your favorite Futurama character!</h1>
+      <img src="imgs/futurama.png" alt="futurama" id="futuramaImg">
+      <form action="" id="futuramaCharacter">
+        <input type="radio" name="character" value="Fry">Phillip J. Fry<br>
+        <input type="radio" name="character" value="Bender">Bender Bending
+        Rodriguez<br>
+        <input type="radio" name="character" value="Leela">Turanga Leela<br>
+        <input type="radio" name="character" value="Professor">Professor Hubert J.
+        Farnsworth<br>
+        <input type="radio" name="character" value="Zoidberg">Why not Zoidberg?<br>
+        <input type="radio" name="character" value="Hermes">Hermes Conrad<br>
+        <input type="radio" name="character" value="Amy">Amy Wong<br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="hidden" id="valid">
+      <h2>Good news everyone! Your response has been recorded</h2>
+      <img src="imgs/good_news.png" alt="good news everyone">
+    </div>
+
+    <div class="hidden" id="invalid">
+      <h2>My Kajigger! You didn't pick a character</h2>
+      <img src="imgs/my_kajigger.jpg" alt="my_kajigger">
+    </div>
+  </body>
+</html>
+

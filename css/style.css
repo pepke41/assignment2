@@ -1,0 +1,25 @@
+html {
+  font-family: 'Play', sans-serif;
+  background: #8B0000;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+#futuramaImg {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+#survey {
+  text-align: center;
+}
+
